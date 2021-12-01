@@ -27,6 +27,8 @@ A simple crud of customers to be a base for new projects (using React + TS)
 `npm install -g json-server`
 
 `json-server --watch db.json --port 3004`
+or
+`npx json-server --watch db.json --port 3004`
 
 ## Run project
 
