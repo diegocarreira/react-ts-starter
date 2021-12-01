@@ -1,0 +1,50 @@
+.form-container{
+  padding: 10px;
+  
+  form{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+    
+    .form-group{
+      margin: 5px 0px;
+      min-height: 40px;
+
+      label{
+        line-height: 21px;
+      }
+      
+      input, select, button{
+        display: block;
+        width: 100%;
+        height: 40px;
+      }
+
+      input, select{
+        border: 1px solid #CCC;
+        border-radius: 4px;
+        background-color: #FFF;
+        text-indent: 4px;
+        // min-width: 50%;
+        // max-width: 100%;
+      }
+
+      button{
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+      }
+      
+      span{
+        margin-left: 5px;
+        color: tomato;
+        // display: block;
+      }
+    }
+
+  }
+}

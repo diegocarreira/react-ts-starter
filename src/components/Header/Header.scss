@@ -1,0 +1,25 @@
+@import "../../style/variables.scss";
+
+header{
+  background-color: $bg1;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  color: #FFF;
+  
+  .header-item{
+    // color: #292929;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+  }
+
+  .icon-home{
+    font-size: 21px;
+  }
+}

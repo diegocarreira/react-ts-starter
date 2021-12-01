@@ -1,0 +1,34 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Customer example 1",
+      "email": "test1@test.com",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Customer example 2",
+      "email": "test2@test.com",
+      "status": false
+    },
+    {
+      "id": 3,
+      "name": "Customer example 3",
+      "email": "test3@test.com",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Customer example 4",
+      "email": "test4@test.com",
+      "status": false
+    },
+    {
+      "id": 5,
+      "name": "Customer example 5",
+      "email": "test5@test.com",
+      "status": true
+    }
+  ]
+}
